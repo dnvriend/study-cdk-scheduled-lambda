@@ -1,4 +1,4 @@
-boto3
 aws-cdk-lib
+boto3
 constructs
 python-dotenv

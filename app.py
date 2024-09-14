@@ -2,6 +2,9 @@ import os
 import aws_cdk as cdk
 from aws_cdk import Stack
 from aws_cdk import aws_logs as logs
+import dotenv
+
+dotenv.load_dotenv()
 
 class ScheduledLambdaStack(Stack):
     def __init__(self, scope: cdk.App, id: str, **kwargs) -> None:
